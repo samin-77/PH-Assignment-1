@@ -246,3 +246,55 @@
     width: 24px;
     height: 24px;
 }
+.early-access-section{
+    padding: 100px 5%;
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: center;
+}
+.cta-container{
+    background: rgba(247, 246, 242, 1);
+    width: 100%;
+    max-width: 1100px;
+    padding: 80px 40px;
+    border-radius: 16px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.cta-title{
+    font-size: 48px;
+    font-weight: 800;
+    color:black;
+    margin-bottom: 20px;
+}
+.cta-subtitle{
+    font-size: 18px;
+    color: grey;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+.btn-green-cta{
+    background-color:#30B868;
+    color: white;
+    padding: 18px 36px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn-green-cta:hover{
+    background-color: #437d59;
+}
+.arrow{
+    font-size: 20px;
+}
+.cta-footer-text{
+    margin-top: 25px;
+    font-size: 14px;
+    color:grey;
+    font-weight: 500;
+}
