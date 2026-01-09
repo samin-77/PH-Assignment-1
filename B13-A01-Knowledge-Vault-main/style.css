@@ -25,13 +25,13 @@
     list-style: none;
     display: flex;
     gap: 30px; 
+    font-family: "Inter", sans-serif;
 }
 .nav-links li a{
     text-decoration: none;
     color: #000000;
     font-weight: 500;
     font-size: 16px;
-    transition: color 0.3s;
 }
 .btn-early-access{
     background-color:#30B868; 
@@ -45,4 +45,85 @@
 }
 .btn-early-access:hover{
     background-color:#30B868;
+}
+.hero{
+    min-height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url(assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+.hero-container{
+    max-width: 900px;
+}
+.inside-hero{
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffffff;
+    color: #30B868;
+    padding: 6px 18px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.pulse-dot{
+    height: 8px;
+    width: 8px;
+    background-color: #30B868;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.hero-title{
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+.green{
+    color: #30B868;
+}
+.text{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #d1d1d1;
+    line-height: 1.6;
+    max-width: 750px;
+    margin: 0 auto 40px auto;
+}
+.hero-tab{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.green-btn{
+    background-color: #30B868;
+    color: white;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.outline-btn{
+    background-color: transparent;
+    color: white;
+    padding: 16px 32px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
