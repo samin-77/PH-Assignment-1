@@ -186,13 +186,11 @@
     font-size: 16px;
     color: grey;
 }
-/* Solution Section */
-.solution-section {
+.solution-section{
     padding: 100px 10%;
     background-color: #ffffff;
 }
-
-.solution-container {
+.solution-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,12 +198,9 @@
     max-width: 1200px;
     margin: 0 auto;
 }
-
-/* Image styling */
-.solution-image {
+.solution-image{
     flex: 1;
 }
-
 .solution-image img{
     width: 100%;
     height: auto;
