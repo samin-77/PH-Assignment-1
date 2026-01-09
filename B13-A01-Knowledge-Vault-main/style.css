@@ -127,25 +127,22 @@
     align-items: center;
     gap: 10px;
 }
-/* Notes Section Styling */
 .notes-section {
     padding: 80px 10%;
     background-color: #ffffff;
     text-align: center;
     font-family: "Inter", sans-serif;
 }
-
-.notes-header {
+.notes-header{
     margin-bottom: 60px;
 }
-
-.notes-title {
+.notes-title{
     font-size: 42px;
     font-weight: 800;
-    color: #0d1b2a;
+    color: black;
     margin-bottom: 15px;
 }
-.notes-subtitle {
+.notes-subtitle{
     font-size: 16px;
     font-weight: 400;
     color: #64748b;
@@ -188,4 +185,69 @@
 .note-card p{
     font-size: 16px;
     color: grey;
+}
+/* Solution Section */
+.solution-section {
+    padding: 100px 10%;
+    background-color: #ffffff;
+}
+
+.solution-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Image styling */
+.solution-image {
+    flex: 1;
+}
+
+.solution-image img{
+    width: 100%;
+    height: auto;
+    max-width: 550px;
+}
+.solution-content{
+    flex: 1;
+    font-family: "Inter", sans-serif;
+}
+.sub-heading{
+    color: #30B868;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.solution-title{
+    font-size: 48px;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 25px;
+}
+.solution-text{
+    font-size: 18px;
+    color: grey;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+.check-list{
+    list-style: none;
+    padding: 0;
+}
+.check-list li{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 20px;
+}
+.check-img{
+    width: 24px;
+    height: 24px;
 }
