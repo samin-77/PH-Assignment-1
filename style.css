@@ -49,7 +49,7 @@
 .hero{
     min-height: 90vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                url(assets/hero-bg.png);
+                url(/B13-A01-Knowledge-Vault-main/assets/hero-bg.png);
     background-size: cover;
     background-position: center;
     display: flex;
